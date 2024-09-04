@@ -1,4 +1,3 @@
-
-name="Hello World"
+name="Hello Woss"
 
 print(name)
