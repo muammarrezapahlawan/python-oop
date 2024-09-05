@@ -1,0 +1,88 @@
+Pemrograman Berorientasi Objek merupakan konsep dasar dalam Python, yang memberdayakan pengembang untuk membangun aplikasi yang modular, mudah dirawat, dan dapat diskalakan. Dengan memahami prinsip-prinsip inti OOP—kelas, objek, pewarisan, enkapsulasi, polimorfisme, dan abstraksi—programmer dapat memanfaatkan potensi penuh kemampuan OOP Python untuk merancang solusi yang elegan dan efisien untuk masalah yang kompleks.
+
+Apa itu Pemrograman Berorientasi Objek dalam Python?
+Dalam Python, Object-Oriented Programming (OOPs) adalah paradigma pemrograman yang menggunakan objek dan kelas dalam pemrograman. Tujuannya adalah untuk mengimplementasikan entitas dunia nyata seperti pewarisan, polimorfisme, enkapsulasi, dll. dalam pemrograman. Konsep utama Object-Oriented Programming (OOPs) atau konsep OOPs dalam Python adalah untuk mengikat data dan fungsi yang bekerja bersama sebagai satu kesatuan sehingga tidak ada bagian lain dari kode yang dapat mengakses data ini
+
+
+Konsep OOPs dalam Python
+Kelas dalam Python
+Objek dalam Python
+Polimorfisme dalam Python
+Enkapsulasi dalam Python
+Pewarisan dalam Python
+Abstraksi Data dalam Python
+
+Kelas Python 
+Kelas adalah kumpulan objek. Kelas berisi cetak biru atau prototipe tempat objek tersebut dibuat. Kelas adalah entitas logis yang berisi beberapa atribut dan metode. 
+
+Untuk memahami perlunya membuat kelas, mari kita pertimbangkan sebuah contoh. Katakanlah Anda ingin melacak jumlah anjing yang mungkin memiliki atribut berbeda seperti ras dan usia. Jika daftar digunakan, elemen pertama bisa jadi ras anjing sementara elemen kedua bisa mewakili usianya. Misalkan ada 100 anjing berbeda, lalu bagaimana Anda tahu elemen mana yang seharusnya menjadi yang mana? Bagaimana jika Anda ingin menambahkan properti lain ke anjing-anjing ini? Ini kurang terorganisir dan itu adalah kebutuhan yang tepat untuk kelas. 
+
+Beberapa poin pada kelas Python:  
+
+Kelas dibuat dengan kata kunci class.
+Atribut adalah variabel yang dimiliki suatu kelas.
+Atribut selalu bersifat publik dan dapat diakses menggunakan operator titik (.). Misalnya: Myclass.Myattribute
+
+
+
+Konsep Python OOPs
+Terakhir Diperbarui: 14 Jul, 2024
+Pemrograman Berorientasi Objek merupakan konsep dasar dalam Python, yang memberdayakan pengembang untuk membangun aplikasi yang modular, mudah dirawat, dan dapat diskalakan. Dengan memahami prinsip-prinsip inti OOP—kelas, objek, pewarisan, enkapsulasi, polimorfisme, dan abstraksi—programmer dapat memanfaatkan potensi penuh kemampuan OOP Python untuk merancang solusi yang elegan dan efisien untuk masalah yang kompleks.
+
+Apa itu Pemrograman Berorientasi Objek dalam Python?
+Dalam Python, Object-Oriented Programming (OOPs) adalah paradigma pemrograman yang menggunakan objek dan kelas dalam pemrograman. Tujuannya adalah untuk mengimplementasikan entitas dunia nyata seperti pewarisan, polimorfisme, enkapsulasi, dll. dalam pemrograman. Konsep utama Object-Oriented Programming (OOPs) atau konsep OOPs dalam Python adalah untuk mengikat data dan fungsi yang bekerja bersama sebagai satu kesatuan sehingga tidak ada bagian lain dari kode yang dapat mengakses data ini. Untuk pengetahuan yang lebih mendalam tentang konsep Python OOPs, cobalah kursus Python GeeksforGeeks , yang akan memberi Anda wawasan tentang pemrograman Python .
+
+Konsep OOPs dalam Python
+Kelas dalam Python
+Objek dalam Python
+Polimorfisme dalam Python
+Enkapsulasi dalam Python
+Pewarisan dalam Python
+Abstraksi Data dalam Python
+Python OOP
+Konsep Python OOPs
+
+Kelas Python 
+Kelas adalah kumpulan objek. Kelas berisi cetak biru atau prototipe tempat objek tersebut dibuat. Kelas adalah entitas logis yang berisi beberapa atribut dan metode. 
+
+Untuk memahami perlunya membuat kelas, mari kita pertimbangkan sebuah contoh. Katakanlah Anda ingin melacak jumlah anjing yang mungkin memiliki atribut berbeda seperti ras dan usia. Jika daftar digunakan, elemen pertama bisa jadi ras anjing sementara elemen kedua bisa mewakili usianya. Misalkan ada 100 anjing berbeda, lalu bagaimana Anda tahu elemen mana yang seharusnya menjadi yang mana? Bagaimana jika Anda ingin menambahkan properti lain ke anjing-anjing ini? Ini kurang terorganisir dan itu adalah kebutuhan yang tepat untuk kelas. 
+
+Beberapa poin pada kelas Python:  
+
+Kelas dibuat dengan kata kunci class.
+Atribut adalah variabel yang dimiliki suatu kelas.
+Atribut selalu bersifat publik dan dapat diakses menggunakan operator titik (.). Misalnya: Myclass.Myattribute
+Sintaksis Definisi Kelas:
+
+kelas ClassName: 
+   # Pernyataan-1 
+   . 
+   . 
+   . 
+   # Pernyataan-N
+Membuat Kelas Kosong di Python
+Dalam contoh di atas, kita telah membuat kelas bernama Dog menggunakan kata kunci class.
+
+
+# Python3 program to
+# demonstrate defining
+# a class
+
+class Dog:
+    pass
+
+Keluaran
+Objek Python
+Dalam pemrograman berorientasi objek Python, Objek adalah entitas yang memiliki status dan perilaku yang terkait dengannya. Objek dapat berupa objek dunia nyata seperti tetikus, papan ketik, kursi, meja, pena, dll. Bilangan bulat, string, angka floating-point, bahkan array, dan kamus, semuanya adalah objek. Lebih khusus lagi, bilangan bulat tunggal atau string tunggal apa pun adalah objek. Angka 12 adalah objek, string "Halo, dunia" adalah objek, daftar adalah objek yang dapat menampung objek lain, dan seterusnya. Anda telah menggunakan objek selama ini dan mungkin tidak menyadarinya.
+
+Suatu objek terdiri dari:
+
+Keadaan: Diwakili oleh atribut suatu objek. Keadaan juga mencerminkan properti suatu objek.
+Perilaku: Diwakili oleh metode suatu objek. Perilaku juga mencerminkan respons suatu objek terhadap objek lain.
+Identitas: Memberikan nama yang unik pada suatu objek dan memungkinkan satu objek berinteraksi dengan objek lainnya.
+Untuk memahami keadaan, perilaku, dan identitas, mari kita ambil contoh kelas anjing (dijelaskan di atas). 
+
+Identitasnya dapat dianggap sebagai nama anjing.
+Negara atau Atribut dapat dianggap sebagai ras, usia, atau warna anjing.
+Perilakunya dapat dilihat dari apakah anjing tersebut sedang makan atau tidur.
+

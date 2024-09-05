@@ -1,0 +1,2 @@
+Di sini, kelas Person didefinisikan dengan dua atribut:
+usia adalah atribut kelas yang ditetapkan ke nilai 35. Atribut kelas dibagikan oleh semua contoh kelas. __init__ adalah metode khusus (konstruktor) yang menginisialisasi instance kelas Person. Metode ini memerlukan dua parameter: self (mengacu pada instance yang sedang dibuat) dan name (mewakili nama person). Parameter name digunakan untuk menetapkan atribut name ke setiap instance Person.

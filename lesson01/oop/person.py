@@ -3,19 +3,14 @@
 # membuat class
 
 class Person:
-  name=""
-  address=""
-  
-  
+  usia1 = 35
 
-  # def getName(self):
-  #   return self.name
-  
 
+ 
+  
 # membuat object
 person1 = Person()
 person2 = Person()
-
 
 
 person1.name="Reza"
@@ -25,6 +20,17 @@ person2.name="Yaya"
 person2.address="Balaikota"
 
 
+# cara akses 1
 print(person2.name)
-print(person1.address)
+print(person2.address)
+
+# cara akses 2
+print("Nama dari person1 adalah {}".format(person1.name))
+print("Nama dari person2 adalah {}".format(person2.name))
+
+
+# cara akses class attribute 
+print("Person 1 berusia {}".format(person1.__class__.usia1))
+print("Person 2 berusia {}".format(person2.__class__.usia1))
+
 
