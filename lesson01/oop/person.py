@@ -19,6 +19,10 @@ person1.address="tanukila"
 person2.name="Yaya"
 person2.address="Balaikota"
 
+print(person1)
+print(person1.__dict__)
+
+
 
 # cara akses 1
 print(person2.name)
