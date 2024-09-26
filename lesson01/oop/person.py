@@ -5,9 +5,6 @@
 class Person:
   usia1 = 35
 
-
- 
-  
 # membuat object
 person1 = Person()
 person2 = Person()
